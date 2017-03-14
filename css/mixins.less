@@ -1,0 +1,13 @@
+// out: null
+
+/* Parametric mixins for font attributes */
+
+.headerFontAttributes(@fontColor; @fontSize) {
+    color: @fontColor; // this uses our font color
+    font-size: @fontSize; // this uses our font size
+    font-weight: bold; // this uses no arguments... not everything has to be dynamic!
+	padding-top: @fontSize;
+	padding-left: @fontSize / 2;
+}
+
+/* End parametric mixins for font attributes */
